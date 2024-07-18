@@ -1,0 +1,50 @@
+[
+  {
+    "codigo": "0001",
+    "nombre": "Sekiro",
+    "cover": "https://tecnoplay.cl/1600-large_default/digitales-ps5-sekiro-shadows-die-twice-edicion-goty-ps5.jpg",
+    "stock": "43",
+    "precio": "30000",
+    "color": "red"
+  },
+  {
+    "codigo": "0002",
+    "nombre": "Fifa 21",
+    "cover": "https://pbs.twimg.com/media/EU_3fnwWAAAdHvP?format=jpg&name=large",
+    "stock": "55",
+    "precio": "25000",
+    "color": "blue"
+  },
+  {
+    "codigo": "0003",
+    "nombre": "Gears of War 4",
+    "cover": "https://m.media-amazon.com/images/I/81F-tD-d0PL._AC_UF1000,1000_QL80_.jpg",
+    "stock": "12",
+    "precio": "15000",
+    "color": "green"
+  },
+  {
+    "codigo": "0004",
+    "nombre": "Mario Tennis Aces",
+    "cover": "https://m.media-amazon.com/images/I/81odbkBkJvL._AC_UF1000,1000_QL80_.jpg",
+    "stock": "56",
+    "precio": "35000",
+    "color": "black"
+  },
+  {
+    "codigo": "0005",
+    "nombre": "Bloodborne",
+    "cover": "https://m.media-amazon.com/images/I/81Z-g+JU+OL._AC_UF1000,1000_QL80_.jpg",
+    "stock": "12",
+    "precio": "10000",
+    "color": "blue"
+  },
+  {
+    "codigo": "0006",
+    "nombre": "Forza Horizon 4",
+    "cover": "https://products.eneba.games/resized-products/XoimkrBnGsJ8jqT2EYDsY0SkMiXqx1Jra1Hg9ZmgOKQ_350x200_3x-0.jpeg",
+    "stock": "4",
+    "precio": "20000",
+    "color": "red"
+  }
+]
