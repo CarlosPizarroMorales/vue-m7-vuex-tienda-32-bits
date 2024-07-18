@@ -2,7 +2,7 @@
 
 ![img](./src/assets/utils/screenshot.png)
 
-Desafío de código en el marco del desarrollo del bootcamp [**"Desarrollo de aplicaciones Frontend Vue 2.0"**](https://talentodigitalparachile.cl/curso/desarrollador-aplicaciones-front-end-trainee/) de Talento Digital. Corresponde al desafío evaluado de la unidad 2 "Vuex" del módulo 7 "Desarrollo de aplicaciones frontend con framework Vue".  
+Desafío de código en el marco del bootcamp [**"Desarrollo de aplicaciones Frontend Vue 2.0"**](https://talentodigitalparachile.cl/curso/desarrollador-aplicaciones-front-end-trainee/) de Talento Digital. Corresponde al desafío evaluado de la unidad 2 "Vuex" del módulo 7 "Desarrollo de aplicaciones frontend con framework Vue".  
 
 Es una aplicación que simula una tabla con información de stock de juegos para una posible tienda. Permite la interacción del usuario para manipular a través de botones el stock de una base de datos simulada sobre un archivo json. 
 
@@ -40,7 +40,7 @@ npm run serve
    1. Se importan los objetos `mapState` y `mapActions` en [`App.vue`](./src/App.vue#L30)
    2. Se usa [`mapState`](./src/App.vue#L35) para cargar el estado global en la instancia `App.vue`
    3. Se usa [`mapActions`](./src/App.vue#L38) para utilizar estos métodos que se crearán (o crearon) en `/src/store/index.js`
-4. Pasos: en la propiedad `actions` creamos dos métodos,
+4. Pasos: en la propiedad `actions` de `/src/store/index.js` creamos dos métodos,
    1. [`incrementar()`](./src/store/index.js#L16) para incrementar el valor de la propiedad "stock" de cada juego y,
    2. [`decrementar()`](./src/store/index.js#L21) para disminuir este mismo valor.
 
