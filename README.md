@@ -35,7 +35,7 @@ npm run serve
    2. Se copia este archivo en la carpeta [`/src/store`](./src/store/juegos.json) según lo aprendido en la guía.
    3. Para cargar los datos de `juegos.json` importaremos este en [`/src/store/index.js`](./src/store/index.js#L2) con la siguiente línea de código: `import juegos from './juegos.json'`
    4. Creamos una variable de estado global con la línea [`state: { juegos },`](./src/store/index.js#L6)
-   5. Luego, en el mismo archivo usamos la propiedad [`mutations`](./src/store/index.js#L10) para cargar la data importada y asignarla a la variable `state.juegos`.
+   5. Luego, en el mismo archivo usamos la propiedad [`mutations`](./src/store/index.js#L10) para crear el evento que nos permitirá modificar el estado desde los componentes.
 3. Pasos:
    1. Se importan los objetos `mapState` y `mapActions` en [`App.vue`](./src/App.vue#L30)
    2. Se usa [`mapState`](./src/App.vue#L35) para cargar el estado global en la instancia `App.vue`
@@ -43,4 +43,5 @@ npm run serve
 4. Pasos: en la propiedad `actions` de `/src/store/index.js` creamos dos métodos,
    1. [`incrementar()`](./src/store/index.js#L16) para incrementar el valor de la propiedad "stock" de cada juego y,
    2. [`decrementar()`](./src/store/index.js#L21) para disminuir este mismo valor.
+   3. Ambos método hacen uso de `mutations:setJuegos()` para modificar la data.
 
